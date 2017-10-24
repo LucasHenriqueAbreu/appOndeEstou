@@ -1,4 +1,4 @@
-package utfr.edu.br.ondeestou;
+package utfpr.edu.br.ondeestou;
 
 import org.junit.Test;
 

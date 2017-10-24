@@ -1,4 +1,4 @@
-package utfr.edu.br.ondeestou;
+package utfpr.edu.br.ondeestou;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("utfr.edu.br.ondeestou", appContext.getPackageName());
+        assertEquals("utfpr.edu.br.ondeestou", appContext.getPackageName());
     }
 }
