@@ -5,6 +5,17 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET"/>
 
+
+    <meta-data
+        android:name="AA_DB_NAME"
+        android:value="ondeEstou.db" />
+    <meta-data
+        android:name="AA_DB_VERSION"
+        android:value="5" />
+    <meta-data
+        android:name="AA_MODELS"
+        android:value="utfpr.edu.br.ondeestou.model.LocalizacaoLocal" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

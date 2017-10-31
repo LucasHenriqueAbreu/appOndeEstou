@@ -51,4 +51,13 @@ public class Localizacao {
     public void setAlt(double alt) {
         this.alt = alt;
     }
+
+    @Override
+    public String toString() {
+        return "Localizacao: " +
+                " desc: '" + desc + '\'' +
+                ", lat: " + lat +
+                ", log: " + log +
+                ", alt: " + alt +'}';
+    }
 }
